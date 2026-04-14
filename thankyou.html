@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Voto registrado — Concurso de Arte Marymount">
+  <title>¡Gracias! — Concurso de Arte Marymount</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ── Header ── -->
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="header-logo">
+        <img src="images/logo_marymount.png" alt="Marymount School Logo">
+      </div>
+      <div class="header-text">
+        <h1>Concurso de Arte</h1>
+        <p>Colegio Marymount Medellín</p>
+      </div>
+    </div>
+  </header>
+
+  <!-- ── Main ── -->
+  <main class="container">
+
+    <!-- Progress indicator — all done -->
+    <div class="progress-steps mt-24">
+      <div class="step done">
+        <div class="step-circle">
+          <svg viewBox="0 0 24 24">
+            <path d="M4.5 12.75l6 6 9-13.5"/>
+          </svg>
+        </div>
+        <span class="step-label">Verificación</span>
+      </div>
+      <div class="step-line done"></div>
+      <div class="step done">
+        <div class="step-circle">
+          <svg viewBox="0 0 24 24">
+            <path d="M4.5 12.75l6 6 9-13.5"/>
+          </svg>
+        </div>
+        <span class="step-label">Votación</span>
+      </div>
+      <div class="step-line done"></div>
+      <div class="step done">
+        <div class="step-circle">
+          <svg viewBox="0 0 24 24">
+            <path d="M4.5 12.75l6 6 9-13.5"/>
+          </svg>
+        </div>
+        <span class="step-label">Confirmación</span>
+      </div>
+    </div>
+
+    <!-- Confirmation card -->
+    <div class="card">
+      <div class="thankyou-wrap">
+
+        <!-- Animated check mark -->
+        <div class="check-circle" role="img" aria-label="Voto registrado exitosamente">
+          <svg viewBox="0 0 24 24">
+            <path d="M4.5 12.75l6 6 9-13.5"/>
+          </svg>
+        </div>
+
+        <h2>¡Voto Registrado!</h2>
+        <p>Gracias por participar en el<br><strong>Concurso de Arte — Colegio Marymount Medellín.</strong></p>
+        <p>Tu voto ha sido guardado exitosamente.</p>
+
+        <hr class="divider">
+
+        <p id="voter-summary" class="voter-summary-text"></p>
+
+        <div style="display:flex; gap:12px; justify-content:center; flex-wrap:wrap; margin-top:24px;">
+          <a href="results.html" class="btn btn-primary">
+            <svg viewBox="0 0 24 24">
+              <path d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 013 19.875v-6.75zM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V8.625zM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V4.125z"/>
+            </svg>
+            Ver Resultados
+          </a>
+          <a href="index.html" class="btn btn-outline">
+            Votar con otra cuenta
+          </a>
+        </div>
+
+      </div>
+    </div>
+
+  </main>
+
+  <script src="js/config.js"></script>
+  <script src="js/app.js"></script>
+  <script>
+    ThankyouPage.init();
+  </script>
+</body>
+</html>

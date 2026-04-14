@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Votación del Concurso de Arte — Colegio Marymount Medellín">
+  <title>Registro — Concurso de Arte Marymount</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ── Header ── -->
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="header-logo">
+        <img src="images/logo_marymount.png" alt="Marymount School Logo">
+      </div>
+      <div class="header-text">
+        <h1>HeART Lines: Concurso Intercolegiado de Arte</h1>
+        <p>Colegio Marymount</p>
+      </div>
+    </div>
+  </header>
+
+  <!-- ── Main ── -->
+  <main class="container">
+
+    <!-- Progress indicator -->
+    <div class="progress-steps mt-24">
+      <div class="step active">
+        <div class="step-circle">1</div>
+        <span class="step-label">Verificación</span>
+      </div>
+      <div class="step-line"></div>
+      <div class="step">
+        <div class="step-circle">2</div>
+        <span class="step-label">Votación</span>
+      </div>
+      <div class="step-line"></div>
+      <div class="step">
+        <div class="step-circle">3</div>
+        <span class="step-label">Confirmación</span>
+      </div>
+    </div>
+
+    <!-- Registration card -->
+    <div class="card">
+      <div class="page-hero">
+        <div class="icon-circle">
+          <!-- user icon -->
+          <svg viewBox="0 0 24 24">
+            <path d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z"/>
+          </svg>
+        </div>
+        <h2>Registro de Votante</h2>
+        <p>Ingresa tus datos para participar. Solo se permite <strong>un voto</strong> por correo electrónico.</p>
+      </div>
+
+      <!-- Alert box (hidden by default) -->
+      <div id="alert-box" class="alert alert-hidden" role="alert" aria-live="polite"></div>
+
+      <form id="register-form" novalidate>
+        <div class="form-group">
+          <label for="name">
+            Nombre completo
+          </label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Ej. María García Pérez"
+            autocomplete="name"
+            required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">
+            Correo electrónico
+          </label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="tu@correo.com"
+            autocomplete="email"
+            required>
+        </div>
+
+        <div class="form-group">
+          <label for="school">
+            Colegio / Institución
+          </label>
+          <input
+            type="text"
+            id="school"
+            name="school"
+            placeholder="Nombre de tu colegio"
+            autocomplete="organization"
+            required>
+        </div>
+
+        <button type="submit" class="btn btn-accent btn-full" id="submit-btn">
+          <span class="btn-label">Verificar y Continuar</span>
+          <div class="spinner" aria-hidden="true"></div>
+          <svg viewBox="0 0 24 24">
+            <path d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+          </svg>
+        </button>
+      </form>
+    </div>
+
+    <!-- Link to results -->
+    <div class="text-center">
+      <a href="results.html" class="btn btn-outline">
+        <svg viewBox="0 0 24 24">
+          <path d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 013 19.875v-6.75zM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V8.625zM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V4.125z"/>
+        </svg>
+        Ver Resultados en Vivo
+      </a>
+    </div>
+
+  </main>
+
+  <script src="js/config.js"></script>
+  <script src="js/app.js"></script>
+  <script>
+    IndexPage.init();
+  </script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <rect width="400" height="400" fill="#F8D6EC"/>
+  <rect x="32" y="32" width="336" height="252" rx="12" fill="#ECA8D2"/>
+  <!-- Diamond / mosaic pattern -->
+  <polygon points="200,60 260,140 200,220 140,140" fill="#E91E8C" opacity="0.28"/>
+  <polygon points="120,100 180,180 120,260 60,180" fill="#C2185B" opacity="0.22"/>
+  <polygon points="280,100 340,180 280,260 220,180" fill="#AD1457" opacity="0.22"/>
+  <polygon points="200,130 240,180 200,230 160,180" fill="#FFFFFF" opacity="0.2"/>
+  <!-- Accent dots -->
+  <circle cx="200" cy="145" r="12" fill="#E91E8C" opacity="0.5"/>
+  <circle cx="140" cy="170" r="8"  fill="#C2185B" opacity="0.45"/>
+  <circle cx="260" cy="170" r="8"  fill="#C2185B" opacity="0.45"/>
+  <!-- Bottom label bar -->
+  <rect y="316" width="400" height="84" fill="#8B0D53"/>
+  <rect y="316" width="400" height="4" fill="#ECA8D2"/>
+  <text x="200" y="362" text-anchor="middle" font-family="Calibri, Segoe UI, sans-serif" font-size="26" font-weight="bold" fill="#FFFFFF">Obra 3 — Cat. 2</text>
+  <text x="200" y="388" text-anchor="middle" font-family="Calibri, Segoe UI, sans-serif" font-size="15" fill="#ECA8D2" opacity="0.85">cat2_p3 · Imagen de ejemplo</text>
+</svg>

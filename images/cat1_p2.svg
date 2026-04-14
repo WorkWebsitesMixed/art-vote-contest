@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <rect width="400" height="400" fill="#E4EBF7"/>
+  <rect x="32" y="32" width="336" height="252" rx="12" fill="#BEC9E4"/>
+  <!-- Abstract circles composition -->
+  <circle cx="140" cy="140" r="70" fill="#7A94BD" opacity="0.5"/>
+  <circle cx="240" cy="170" r="55" fill="#4A6FA5" opacity="0.45"/>
+  <circle cx="190" cy="210" r="45" fill="#243380" opacity="0.35"/>
+  <rect x="60" y="200" width="280" height="4" fill="#8FA5CC" opacity="0.4"/>
+  <!-- Bottom label bar -->
+  <rect y="316" width="400" height="84" fill="#1B2A6B"/>
+  <rect y="316" width="400" height="4" fill="#A8C8E8"/>
+  <text x="200" y="362" text-anchor="middle" font-family="Calibri, Segoe UI, sans-serif" font-size="26" font-weight="bold" fill="#FFFFFF">Obra 2 — Cat. 1</text>
+  <text x="200" y="388" text-anchor="middle" font-family="Calibri, Segoe UI, sans-serif" font-size="15" fill="#A8C8E8" opacity="0.85">cat1_p2 · Imagen de ejemplo</text>
+</svg>
