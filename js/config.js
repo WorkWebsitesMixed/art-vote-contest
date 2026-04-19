@@ -23,7 +23,7 @@ const CONFIG = {
       nameKey: "category2Name",
       pieces: [
         { id: "cat2_p1", title: "Lucha interior", artist: "Valentina Zambrano Restrepo", school: "Colegio Pinares Altoverde", technique: "Técnica mixta" },
-        { id: "cat2_p2", title: "el grito de la tierra", artist: "Alejandra Duque Robledo", school: "Colegio Marymount Medellín", technique: "Técnica mixta" },
+        { id: "cat2_p2", title: "El grito de la tierra", artist: "Alejandra Duque Robledo", school: "Colegio Marymount Medellín", technique: "Técnica mixta" },
         { id: "cat2_p3", title: "Sin título", artist: "Mariana Posada Castrillón", school: "Colegio Montessori", technique: "Técnica mixta" }
       ]
     }
