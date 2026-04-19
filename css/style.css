@@ -526,7 +526,14 @@ select, input { font-family: inherit; }
 .artwork-school {
   font-size: 0.73rem;
   color: var(--gray-400);
-  margin-bottom: 10px;
+  margin-bottom: 2px;
+}
+
+.piece-technique {
+  font-size: 0.68rem;
+  color: var(--gray-400);
+  opacity: 0.8;
+  margin: 0 0 10px;
 }
 
 /* Place dropdown */

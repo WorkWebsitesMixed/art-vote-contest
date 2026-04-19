@@ -295,7 +295,8 @@ const VotePage = {
     info.innerHTML = `
       <div class="artwork-title">${piece.title}</div>
       <div class="artwork-artist">${piece.artist}</div>
-      <div class="artwork-school">${piece.school}</div>`;
+      <div class="artwork-school">${piece.school}</div>
+      ${piece.technique ? `<p class="piece-technique"><em>${piece.technique}</em></p>` : ''}`;
 
     // Place dropdown
     const select = document.createElement('select');
